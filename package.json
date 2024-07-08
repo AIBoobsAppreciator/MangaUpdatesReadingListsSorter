@@ -1,0 +1,16 @@
+{
+  "name": "mangaupdates-reading-lists-sorter",
+  "type": "module",
+  "scripts": {
+    "build": "bun build.ts",
+    "lint": "web-ext lint --pretty",
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "@types/bun": "^1.1.6",
+    "prettier": "^3.3.2"
+  },
+  "peerDependencies": {
+    "typescript": "^5.5.3"
+  }
+}
